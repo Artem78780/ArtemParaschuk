@@ -1,0 +1,22 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.boxing h2{
+    color: grey;
+}
+.red_color h2 {
+    color: red;
+}
+.green_color p{
+    font-size: 16px;
+    color: green;
+}
+.green_color h2{
+    color: black;
+}
+.boxing p{
+    font-size: 14px;
+}
+
+

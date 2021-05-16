@@ -12,4 +12,4 @@ User-agent: Yandex
 Allow: /aptimaze/
 Disallow: /admin/
 Disallow: /avtar/
-Host: https://site.com/
+Host: https://site.com/ 

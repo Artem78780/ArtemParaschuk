@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.conteiner{
+    max-width: 1170;
+    margin: 0 auto;
+}
+
+
+.conteiner_one{
+    background: url(/img/one.jpg) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 50px;
+    min-height: 200px
+}
+
+.conteiner_two{
+    background: url(/img/one.jpg), url(/img/two.jpg), url(/img/three.jpg);
+    background-size: 30%, 40%, 20%;
+    background-position:right, center, left;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    margin-top: 50px;
+}

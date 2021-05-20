@@ -1,0 +1,21 @@
+nav ul.menu li.item a.link-item {
+    color: blueviolet;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+nav ul.menu li.item a.link-item:hover{
+    color: rgb(206, 4, 128);
+    font-size: 30px;
+    text-decoration: underline;
+}
+nav ul.sub-menu li.item a.link-item{
+    color: chocolate;
+    font-size: 18px;
+    text-decoration: none;
+}
+nav ul.sub-menu li.item a.link-item:hover{
+    color: rgb(5, 117, 71);
+    font-size: 23px;
+    text-decoration: underline;
+}

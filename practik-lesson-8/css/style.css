@@ -9,7 +9,7 @@
 
 
 .conteiner_one{
-    background: url(/img/one.jpg) center;
+    background: url(../img/one.jpg) center;
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -18,7 +18,7 @@
 }
 
 .conteiner_two{
-    background: url(/img/one.jpg), url(/img/two.jpg), url(/img/three.jpg);
+    background: url(../img/one.jpg), url(../img/two.jpg), url(../img/three.jpg);
     background-size: 30%, 40%, 20%;
     background-position:right, center, left;
     background-repeat: no-repeat;

@@ -95,14 +95,17 @@ p{
     background: url(../img/img1.jpg);
     background-size: cover;
     padding: 200px 0;
+    background-position: center center;
 }
 .slide2{
     background: url(../img/img2.jpg);
     background-size: cover;
     padding: 200px 0;
+    background-position: center center;
 }
 .slide3{
     background: url(../img/img3.jpg);
     background-size: cover;
     padding: 200px 0;
+    background-position: center center;
 }

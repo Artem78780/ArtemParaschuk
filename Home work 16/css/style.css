@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 1170px;
+    margin:  0 auto;
+}
+.main__content{
+    margin-top: 50px;
+}
+.button{
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 8px;
+    background: rgb(0, 0, 0);
+    display: block;
+    color: white;
+    transition: 0.7s linear;
+}
+.button:hover{
+    border: 8px solid;
+}
+.run__blok{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background: green;
+    animation-name: run__blok;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes run__blok{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    25%{
+        top: 0;
+        left: 400px;
+        background: blueviolet
+    }
+    50%{
+        top: 400px;
+        left: 400px;
+        background: cornflowerblue;
+    }
+    75%{
+        top: 400px;
+        left: 0px;
+        background: yellow; 
+    }
+    100%{
+        top: 0;
+        background: red;
+    }
+}

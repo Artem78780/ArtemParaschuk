@@ -1,10 +1,4 @@
-/* font-family: 'open_sansbold';
-font-family: 'cardoitalic';
-font-family: 'open_sansregular';
-font-family: 'ralewaybold';
-font-family: 'ralewaylight';
-font-family: 'ralewayregular';
-font-family: 'ralewaysemibold'; */
+
 *{
     margin: 0;
     padding: 0;
@@ -105,3 +99,160 @@ img{
     text-decoration: none;
     background: antiquewhite;
 }
+.blok2{
+    padding-bottom: 100px;
+}
+.child-box-servise-img img{
+    display: block;
+    margin: 0 auto;
+}
+.box-servise h2{
+    font-family: 'ralewaybold';
+    font-size: 14px;
+    color:#2d3033;
+    text-transform: uppercase;
+    margin-top: 30px;
+    text-align: center;
+}
+.box-servise-text{
+    font-family: 'ralewayregular';
+    font-size: 14px;
+    color: #6c7279;
+    text-align: center;
+    margin-top: 22px;
+}
+.box-servise{
+    margin-bottom: 60px;
+}
+.galery{
+    display: flex;
+    flex-wrap: wrap;
+}
+.galery a {
+    display: block;
+    width: 24.88888%;
+    margin: 1px;
+    max-height: 521px;
+    overflow: hidden;
+}
+.galery a img{
+    width: 100%;
+}
+.galery a:nth-child(1),
+.galery a:nth-child(5){
+    margin-left: 0;
+}
+.galery a:nth-child(4),
+.galery a:nth-child(8){
+    margin-right: 0;
+}
+.team{
+    max-width: 1140px;
+    margin: auto;
+    padding: 100px 0;
+}
+.box-team-name{
+    font-family: 'ralewayregular';
+    font-size: 22px;
+    margin-top: 30px;
+}
+.box-team-position{
+    margin-top: 15px;
+    font-family: 'ralewayregular';
+    color: #e84545;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.box-team-text{
+    font-size: 14px;
+    font-family: 'ralewayregular';
+    color: #6c7279;
+    margin-top: 29px;
+}
+.box-team-sosial{
+    margin-top: 29px;
+    display: flex;
+}
+.box-team-sosial a{
+    display: block;
+}
+.box-team-sosial a:hover{
+    text-decoration: none;
+}
+.box-team-sosial a i{
+    display: block;
+    font-size: 22px;
+    color: #c6cacc;
+    border: 1px solid #c6cacc;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 9px;
+    margin-right: 4px;
+    transition: 0.5s
+}
+.box-team-sosial a i:hover{
+    color: rgb(127, 128, 129);
+    border: 1px solid rgb(127, 128, 129);
+}
+.carousel-reviews{
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+.bg-carousel-reviews{
+    width: 50%;
+    background: url(../img/img-lady.jpg) no-repeat;
+    background-size: cover;
+    background-position: top right;
+    
+}
+.owl-carousel-reviews{
+    background: #53354a;
+    padding: 106px 76px;
+    width: 50%;
+}
+.text-owl-carousel{
+    font-family: 'cardoitalic';
+    font-size: 36px;
+    color: #fff;
+    line-height: 48px;
+    margin-bottom: 40px;
+}
+.name-owl-carousel{
+    font-family: 'ralewaybold';
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+#carousel-reviews .owl-dots{
+    display: flex;
+    justify-content: center;
+    margin-top: 63px;
+}
+#carousel-reviews .owl-dot{
+    outline: none;
+}
+#carousel-reviews .owl-dot span:hover,
+#carousel-reviews .owl-dot.active span{
+    background: rgb(255, 255, 255);
+
+}
+#carousel-reviews .owl-dot span{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgb(139, 139, 139);
+    margin-right: 8px;
+    display: block;
+    transition: 0.5s;
+}
+
+
+/* font-family: 'open_sansbold';
+font-family: 'cardoitalic';
+font-family: 'open_sansregular';
+font-family: 'ralewaybold';
+font-family: 'ralewaylight';
+font-family: 'ralewayregular';
+font-family: 'ralewaysemibold'; */

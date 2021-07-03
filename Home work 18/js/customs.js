@@ -4,7 +4,9 @@ jQuery(document).ready(function () {
 
     'use strict';
 
-	var slid = jQuery('#carusel-main');
+	jQuery(".fancybox").fancybox();
+	
+	var slid = jQuery('#carousel-reviews');
 		
 	slid.owlCarousel({
 		items: 1,
@@ -14,9 +16,9 @@ jQuery(document).ready(function () {
 		smartSpeed: 1000,
 		dotsSpeed: 1000,
 		loop: true,
-		nav: true,
+		nav: false,
 		navText: ['<', '>'],
-		dots: false,
+		dots: true,
 		mouseDrag: true,
 		margin: 30,
 		stagePadding: 0,
@@ -32,18 +34,22 @@ jQuery(document).ready(function () {
 			},
 			479:{
 				items: 1,
+				dots: true,
 				mouseDrag: true
 			},
 			767:{
 				items: 1,
+				dots: true,
 				mouseDrag: true
 			},
 			991:{
 				items: 1,
+				dots: true,
 				mouseDrag: true
 			},
 			1099:{
 				items: 1,
+				dots: true,
 				mouseDrag: true
 			}
 		}

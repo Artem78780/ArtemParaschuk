@@ -1,7 +1,65 @@
+@media (max-width:2500px){
+    .galery a{
+        height: 391px;
+    }
+}
+@media (max-width:2000px){
+    .galery a{
+        height: 347px;
+    }
+    .bg-carousel-reviews{
+        
+    }
+}
+@media (max-width:1800px){
+    .galery a{
+        height: 326px;
+    }
+}
+@media (max-width:1650px){
+    .galery a{
+        height: 288px;
+    }
+}
+@media (max-width:1480px){
+    .galery a{
+        width: 25%;
+        margin: 0;
+        max-height: 263px;
+        height: auto;
+    }
+    .galery a img{
+        
+        height: 100%;
+        object-fit: cover;
+    }
+}
 @media (max-width:1199px){
-
+    .blok2{
+        padding-bottom: 60px;
+    }
+    .owl-carousel-reviews{
+        padding: 85px 40px; 
+    }
 }
 @media (max-width:991px){
+    .owl-carousel-reviews{
+        padding: 85px 40px; 
+        width: 100%;
+    }
+    .bg-carousel-reviews{
+        display: none;
+    }
+    .box-team{
+        margin-bottom: 40px;
+    }
+    .galery a{
+        width: 50%;
+    }
+    .team{
+        max-width: 720px;
+        margin: 0 auto;
+    }
     .baner{
         padding-top: 203px;
         padding-bottom: 110px;
@@ -16,9 +74,24 @@
     }
 }
 @media (max-width:767px){
+    .box-team{
+        max-width: 316px;
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .team{
+        padding: 60px 0;
+    }
     .logo{
         display: block;
         margin-bottom: 20px;
+    } 
+    .box-servise{
+        max-width: 350px;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 60px;
     }
     .logo img{
         display: block;
@@ -35,7 +108,19 @@
     }
 }
 @media (max-width:600px){
-
+    .galery a{
+        width: 70px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .galery a:nth-child(1),
+    .galery a:nth-child(5){
+        margin-left: auto;
+    }
+    .galery a:nth-child(4),
+    .galery a:nth-child(8){
+        margin-right: auto;
+    }
 }
 @media (max-width:500px){
 

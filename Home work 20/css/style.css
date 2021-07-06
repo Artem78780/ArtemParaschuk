@@ -247,6 +247,89 @@ img{
     display: block;
     transition: 0.5s;
 }
+.download{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.download-item{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'ralewayregular';
+}
+.download-text{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+.download-btn{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    padding-bottom: 90px;
+}
+.download-btn button{
+    background: #e84545;
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s linear;
+    font-family: 'ralewaysemibold';
+}
+.download-btn button:hover{
+    background: antiquewhite;
+    color: black;
+}
+.footer-top{
+    background: rgb(50 50 82);
+}
+.top{
+    max-width: 1140px;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    padding: 50px 0px;
+}
+.footer-blok{
+    width: 33.33%;
+}
+.footer-item{
+    text-align: center;
+    font-family: 'ralewaybold';
+}
+.footer-text{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 13px;
+    color: rgb(177, 175, 175);
+    font-family: 'ralewaylight';
+}
+.footer-text a i{
+    font-size: 30px;
+    color: white;
+    padding: 5px;
+    transition: 0.5s linear;
+}
+.footer-text a i:hover{
+    color: rgb(158, 158, 158);
+}
+.footer-bottom{
+    background: #0d1c2f
+}
+.footer-bottom-text{
+    color: white;
+    padding: 20px 0;
+    max-width: 310px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(177, 175, 175);
+    font-family: 'ralewaylight';
+}
+.footer-bottom-text span{
+    color: white;
+}
 
 
 /* font-family: 'open_sansbold';

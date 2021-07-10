@@ -22,11 +22,15 @@
     }
 }
 @media (max-width:1480px){
+    .baner-text{
+        margin-top: 15px;
+    }
     .galery a{
         width: 25%;
         margin: 0;
         max-height: 263px;
         height: auto;
+        border: 1px solid white;
     }
     .galery a img{
         
@@ -35,8 +39,17 @@
     }
 }
 @media (max-width:1199px){
+    .baner{
+        padding-bottom: 140px;
+    }
     .blok2{
         padding-bottom: 60px;
+    }
+    .team{
+        padding-bottom: 100px 0;
+    }
+    .galery a {
+        border: 1px solid white;
     }
     .owl-carousel-reviews{
         padding: 85px 40px; 
@@ -55,6 +68,7 @@
     }
     .galery a{
         width: 50%;
+        border: 1px solid white;
     }
     .team{
         max-width: 720px;
@@ -74,6 +88,9 @@
     }
 }
 @media (max-width:767px){
+    .baner{
+        padding-bottom: 90px;
+    }
     .box-team{
         max-width: 316px;
         margin: 0 auto;
@@ -108,10 +125,28 @@
     }
 }
 @media (max-width:600px){
+    .baner{
+        padding-bottom: 70px;
+    }
+    .baner-text h1{
+        font-size: 35px;
+    }
+    .box-text-baner{
+        font-size: 17px;
+        margin-bottom: 50px
+    }
+    .separator{
+        padding-bottom: 10px;
+    }
+    .nav-menu ul.menu li a {
+        font-size: 11px;
+        padding-left: 11px;
+    }
     .galery a{
         width: 70px;
         margin: 0 auto;
-        margin-bottom: 20px;
+        margin-bottom: 1px;
+        width: 100%;
     }
     .galery a:nth-child(1),
     .galery a:nth-child(5){
@@ -121,8 +156,75 @@
     .galery a:nth-child(8){
         margin-right: auto;
     }
+    .team{
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+    .box-team-text {
+        margin-top: 15px;
+        font-size: 12px;
+    }
+    .box-team-position {
+        font-size: 14px;
+        margin-top: 8px;
+    }
+    .box-team-name {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .box-team-sosial {
+        margin-top: 20px;
+    }
+    .box-team-sosial a i{
+        font-size: 18px;
+        padding-top: 4px;
+        width: 28px;
+        height: 28px;
+    }
+    .owl-carousel-reviews {
+        padding: 40px 35px;
+    }
+    #carousel-reviews .owl-dot span{
+        width: 10px;
+        height: 10px;
+    }
+    .name-owl-carousel {
+        font-size: 11px;
+    }
+    .text-owl-carousel{
+        font-size: 20px;
+    }
+    .carousel-reviews{
+        padding-bottom: 50px;
+    }
+    .download-btn{
+        padding-bottom: 50px;
+    }
+    .download-btn button {
+        padding: 5px 25px;
+        font-size: 12px;
+    }
+    .top{
+        padding: 15px 0;
+    }
+    .footer-item{
+        font-size: 11px;
+    }
+    .footer-text{
+        font-size: 9px;
+        margin-top: 10px;
+    }
+    .footer-text a i{
+        font-size: 20px;
+    }
+    .footer-bottom-text{
+        font-size: 9px;
+        padding: 10px 0;
+    }
 }
 @media (max-width:500px){
+ 
+    
 
 }
 @media (max-width:470px){

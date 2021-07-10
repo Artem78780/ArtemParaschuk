@@ -68,7 +68,6 @@ img{
     max-width: 872px;
     width: 100%;
     margin: 0 auto;
-    line-height: 60px;
     margin-bottom: 33px;
 }
 .box-text-baner{
@@ -134,7 +133,11 @@ img{
     margin: 1px;
     max-height: 521px;
     overflow: hidden;
+    transition: 0.5s linear;
+    position: relative;
+    border: 1px solid white;
 }
+
 .galery a img{
     width: 100%;
 }
@@ -151,10 +154,15 @@ img{
     margin: auto;
     padding: 100px 0;
 }
+.box-team-img img{
+    display: block;
+    margin: 0 auto;
+}
 .box-team-name{
     font-family: 'ralewayregular';
     font-size: 22px;
     margin-top: 30px;
+    text-align: center;
 }
 .box-team-position{
     margin-top: 15px;
@@ -162,19 +170,22 @@ img{
     color: #e84545;
     font-size: 13px;
     text-transform: uppercase;
+    text-align: center;
 }
 .box-team-text{
     font-size: 14px;
     font-family: 'ralewayregular';
     color: #6c7279;
     margin-top: 29px;
+    text-align: center;
 }
 .box-team-sosial{
     margin-top: 29px;
     display: flex;
+    justify-content: center;
 }
 .box-team-sosial a{
-    display: block;
+    display: block; 
 }
 .box-team-sosial a:hover{
     text-decoration: none;
@@ -291,9 +302,7 @@ img{
     display: flex;
     padding: 50px 0px;
 }
-.footer-blok{
-    width: 33.33%;
-}
+
 .footer-item{
     text-align: center;
     font-family: 'ralewaybold';
@@ -318,7 +327,6 @@ img{
     background: #0d1c2f
 }
 .footer-bottom-text{
-    color: white;
     padding: 20px 0;
     max-width: 310px;
     margin: 0 auto;

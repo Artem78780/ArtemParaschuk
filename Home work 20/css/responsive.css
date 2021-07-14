@@ -123,6 +123,35 @@
     .nav-menu ul.menu{
         justify-content: center;
     }
+    .team{
+        padding: 40px 0;
+    }
+    .box-team-name{
+        margin-top: 25px;
+    }
+    .box-team-position{
+        margin-top: 10px;
+    }
+    .box-team-text{
+        margin-top: 15px;
+    }
+    .box-team-sosial{
+        margin-top: 20px;
+    }
+        
+    .text-owl-carousel{
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    .footer-top .container{
+        padding: 10px 0px;
+    }
+    .footer-item{
+        margin-top: 25px;
+    }
+    .footer-text{
+        margin-top: 0px;
+    }
 }
 @media (max-width:600px){
     .baner{
@@ -145,7 +174,7 @@
     .galery a{
         width: 70px;
         margin: 0 auto;
-        margin-bottom: 1px;
+        margin-bottom: 5px;
         width: 100%;
     }
     .galery a:nth-child(1),
@@ -162,7 +191,7 @@
     }
     .box-team-text {
         margin-top: 15px;
-        font-size: 12px;
+        font-size: 14px;
     }
     .box-team-position {
         font-size: 14px;
@@ -182,7 +211,10 @@
         height: 28px;
     }
     .owl-carousel-reviews {
-        padding: 40px 35px;
+        padding: 30px 35px;
+    }
+    .text-owl-carousel{
+        line-height: 35px;
     }
     #carousel-reviews .owl-dot span{
         width: 10px;
@@ -202,23 +234,25 @@
     }
     .download-btn button {
         padding: 5px 25px;
-        font-size: 12px;
+        font-size: 14px;
     }
-    .top{
-        padding: 15px 0;
+    .footer-top .container{
+        padding: 0 0 20px 0;
     }
     .footer-item{
-        font-size: 11px;
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 700;
     }
     .footer-text{
-        font-size: 9px;
-        margin-top: 10px;
+        font-size: 15px;
+        margin-top: 0px;
     }
     .footer-text a i{
         font-size: 20px;
     }
     .footer-bottom-text{
-        font-size: 9px;
+        font-size: 12px;
         padding: 10px 0;
     }
 }
@@ -228,5 +262,8 @@
 
 }
 @media (max-width:470px){
-
+    .nav-menu ul.menu li a {
+        font-size: 11px;
+        padding-left: 9px;
+    }
 }

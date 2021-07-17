@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-size: 0px;
+    padding: 8px 30px;
+    transition: linear 0.5s;
+}
+button:hover{
+    background: rgb(65, 64, 64);
+    color: white;
+}
+
+button::before{
+    display: block;
+    content: 'Дивитись більше';
+    font-size: 25px;
+}

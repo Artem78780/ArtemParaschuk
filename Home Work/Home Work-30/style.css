@@ -1,0 +1,14 @@
+div{
+margin: 15px;   
+}
+button{
+    margin: 0 15px 0 15px;
+    padding: 5px;
+    font-size: 16px;
+    background: rgb(182, 137, 224);
+    box-shadow: 2px 2px 5px rgb(137 36 230);
+    border-radius: 4px;
+}
+.out{
+    font-size: 18px;
+}

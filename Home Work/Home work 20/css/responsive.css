@@ -1,0 +1,269 @@
+@media (max-width:2500px){
+    .galery a{
+        height: 391px;
+    }
+}
+@media (max-width:2000px){
+    .galery a{
+        height: 347px;
+    }
+    .bg-carousel-reviews{
+        
+    }
+}
+@media (max-width:1800px){
+    .galery a{
+        height: 326px;
+    }
+}
+@media (max-width:1650px){
+    .galery a{
+        height: 288px;
+    }
+}
+@media (max-width:1480px){
+    .baner-text{
+        margin-top: 15px;
+    }
+    .galery a{
+        width: 25%;
+        margin: 0;
+        max-height: 263px;
+        height: auto;
+        border: 1px solid white;
+    }
+    .galery a img{
+        
+        height: 100%;
+        object-fit: cover;
+    }
+}
+@media (max-width:1199px){
+    .baner{
+        padding-bottom: 140px;
+    }
+    .blok2{
+        padding-bottom: 60px;
+    }
+    .team{
+        padding-bottom: 100px 0;
+    }
+    .galery a {
+        border: 1px solid white;
+    }
+    .owl-carousel-reviews{
+        padding: 85px 40px; 
+    }
+}
+@media (max-width:991px){
+    .owl-carousel-reviews{
+        padding: 85px 40px; 
+        width: 100%;
+    }
+    .bg-carousel-reviews{
+        display: none;
+    }
+    .box-team{
+        margin-bottom: 40px;
+    }
+    .galery a{
+        width: 50%;
+        border: 1px solid white;
+    }
+    .team{
+        max-width: 720px;
+        margin: 0 auto;
+    }
+    .baner{
+        padding-top: 203px;
+        padding-bottom: 110px;
+    }
+    .baner-text h1{
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+    .baner-text-baner{
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:767px){
+    .baner{
+        padding-bottom: 90px;
+    }
+    .box-team{
+        max-width: 316px;
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .team{
+        padding: 60px 0;
+    }
+    .logo{
+        display: block;
+        margin-bottom: 20px;
+    } 
+    .box-servise{
+        max-width: 350px;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+    .logo img{
+        display: block;
+        margin: 0 auto;
+    }
+    .header{
+        padding-top: 25px;
+    }
+    .baner{
+        top: -146px
+    }
+    .nav-menu ul.menu{
+        justify-content: center;
+    }
+    .team{
+        padding: 40px 0;
+    }
+    .box-team-name{
+        margin-top: 25px;
+    }
+    .box-team-position{
+        margin-top: 10px;
+    }
+    .box-team-text{
+        margin-top: 15px;
+    }
+    .box-team-sosial{
+        margin-top: 20px;
+    }
+        
+    .text-owl-carousel{
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    .footer-top .container{
+        padding: 10px 0px;
+    }
+    .footer-item{
+        margin-top: 25px;
+    }
+    .footer-text{
+        margin-top: 0px;
+    }
+}
+@media (max-width:600px){
+    .baner{
+        padding-bottom: 70px;
+    }
+    .baner-text h1{
+        font-size: 35px;
+    }
+    .box-text-baner{
+        font-size: 17px;
+        margin-bottom: 50px
+    }
+    .separator{
+        padding-bottom: 10px;
+    }
+    .nav-menu ul.menu li a {
+        font-size: 11px;
+        padding-left: 11px;
+    }
+    .galery a{
+        width: 70px;
+        margin: 0 auto;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    .galery a:nth-child(1),
+    .galery a:nth-child(5){
+        margin-left: auto;
+    }
+    .galery a:nth-child(4),
+    .galery a:nth-child(8){
+        margin-right: auto;
+    }
+    .team{
+        padding-top: 40px;
+        padding-bottom: 0;
+    }
+    .box-team-text {
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    .box-team-position {
+        font-size: 14px;
+        margin-top: 8px;
+    }
+    .box-team-name {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    .box-team-sosial {
+        margin-top: 20px;
+    }
+    .box-team-sosial a i{
+        font-size: 18px;
+        padding-top: 4px;
+        width: 28px;
+        height: 28px;
+    }
+    .owl-carousel-reviews {
+        padding: 30px 35px;
+    }
+    .text-owl-carousel{
+        line-height: 35px;
+    }
+    #carousel-reviews .owl-dot span{
+        width: 10px;
+        height: 10px;
+    }
+    .name-owl-carousel {
+        font-size: 11px;
+    }
+    .text-owl-carousel{
+        font-size: 20px;
+    }
+    .carousel-reviews{
+        padding-bottom: 50px;
+    }
+    .download-btn{
+        padding-bottom: 50px;
+    }
+    .download-btn button {
+        padding: 5px 25px;
+        font-size: 14px;
+    }
+    .footer-top .container{
+        padding: 0 0 20px 0;
+    }
+    .footer-item{
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .footer-text{
+        font-size: 15px;
+        margin-top: 0px;
+    }
+    .footer-text a i{
+        font-size: 20px;
+    }
+    .footer-bottom-text{
+        font-size: 12px;
+        padding: 10px 0;
+    }
+}
+@media (max-width:500px){
+ 
+    
+
+}
+@media (max-width:470px){
+    .nav-menu ul.menu li a {
+        font-size: 11px;
+        padding-left: 9px;
+    }
+}
